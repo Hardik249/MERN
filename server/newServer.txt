@@ -1,0 +1,91 @@
+new
+
+chintan@chintan-HP-Compaq-Elite-8300-SFF:~/web/projects/Hardik/MERN/server$ npm init -y
+Wrote to /home/chintan/web/projects/Hardik/MERN/server/package.json:
+
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+chintan@chintan-HP-Compaq-Elite-8300-SFF:~/web/projects/Hardik/MERN/server$ npm install express mongoose cors
+
+added 86 packages, and audited 87 packages in 9s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+chintan@chintan-HP-Compaq-Elite-8300-SFF:~/web/projects/Hardik/MERN/server$ subl .
+chintan@chintan-HP-Compaq-Elite-8300-SFF:~/web/projects/Hardik/MERN/server$ node index.js
+chintan@chintan-HP-Compaq-Elite-8300-SFF:~/web/projects/Hardik/MERN/server$ node server
+node:internal/modules/cjs/loader:1080
+  throw err;
+  ^
+
+Error: Cannot find module '/home/chintan/web/projects/Hardik/MERN/server/server'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v18.17.1
+chintan@chintan-HP-Compaq-Elite-8300-SFF:~/web/projects/Hardik/MERN/server$ node server.js
+node:internal/modules/cjs/loader:1080
+  throw err;
+  ^
+
+Error: Cannot find module '/home/chintan/web/projects/Hardik/MERN/server/server.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v18.17.1
+chintan@chintan-HP-Compaq-Elite-8300-SFF:~/web/projects/Hardik/MERN/server$ node index.js
+chintan@chintan-HP-Compaq-Elite-8300-SFF:~/web/projects/Hardik/MERN/server$ node index.js
+Server is running on PORT 8000...
+^C
+chintan@chintan-HP-Compaq-Elite-8300-SFF:~/web/projects/Hardik/MERN/server$ npm start
+npm ERR! Missing script: "start"
+npm ERR! 
+npm ERR! Did you mean one of these?
+npm ERR!     npm star # Mark your favorite packages
+npm ERR!     npm stars # View packages marked as favorites
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/chintan/.npm/_logs/2024-02-23T06_13_53_690Z-debug-0.log
+chintan@chintan-HP-Compaq-Elite-8300-SFF:~/web/projects/Hardik/MERN/server$ npm run
+Lifecycle scripts included in server@1.0.0:
+  test
+    echo "Error: no test specified" && exit 1
+
+chintan@chintan-HP-Compaq-Elite-8300-SFF:~/web/projects/Hardik/MERN/server$ node index.js
+Server is running on PORT 8000...
+^C
+chintan@chintan-HP-Compaq-Elite-8300-SFF:~/web/projects/Hardik/MERN/server$ node index.js
+Server is running on PORT 8000...
+^C     
+chintan@chintan-HP-Compaq-Elite-8300-SFF:~/web/projects/Hardik/MERN/server$ node index.js
+Server is running on PORT 8000...
+
+
+hardik.karavyasolutions@gmail.com
+Hardik@Karavya@Solutions
